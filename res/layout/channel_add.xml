@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="@string/enter_rss_url"/>
+<EditText android:layout_height="wrap_content" android:text="http://" android:layout_width="fill_parent" android:singleLine="true" android:id="@+id/url"></EditText>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:gravity="center_horizontal" android:padding="8dip" android:layout_height="fill_parent" android:layout_width="fill_parent"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/add" android:text="ajouter"></Button>
+</LinearLayout>
+</LinearLayout>
